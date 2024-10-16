@@ -14,7 +14,10 @@
 		},
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "com.klintonexpo.music_player"
+			"bundleIdentifier": "com.klintonexpo.music_player",
+			"infoPlist": {
+				"UIBackgroundModes": ["audio"]
+			}
 		},
 		"android": {
 			"adaptiveIcon": {
